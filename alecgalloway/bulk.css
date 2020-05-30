@@ -10,7 +10,7 @@ body{
 }
 
 .navbar{
-    background-color:rgba(0,0,0, 0);
+    background-color:rgba(0, 0, 0, 0.80);
     color:rgb(231, 203, 79);
 }
 
@@ -28,7 +28,31 @@ body{
     text-shadow: 5px 5px rgb(0, 0, 0)
 }
 
-#navbar{
+#navtitle{
+    font-size:45px;
+}
+
+.navbar-item{
+    color:rgb(231, 203, 79);
+    letter-spacing: 1px;
+    padding:10px 30px 0 20px
+}
+
+.navs{
+    font-size:20px;
+    font-weight: 600;
+;}
+
+#navbar-item-color{
+    color:rgb(231, 203, 79);
+}
+
+.navbar-burger{
+    color:rgb(231, 203, 79);
+    margin-top:15px;
+}
+
+/* #navbar{
     margin-top:-620px
 }
 
@@ -42,42 +66,14 @@ body{
     color:rgb(231, 203, 79);
     /* color:rgb(231, 231, 231);    */
     /* color:rgb(238, 218, 107); */
-    text-shadow: 3px 3px black;
+    /*text-shadow: 3px 3px black;
 }
 
 #navs li a:hover{
     color:rgb(255, 214, 31);
     text-shadow: 5px 5px black
-}
+} */
 
-#info{
-    background-color:rgb(5,5,5);
-    box-shadow: 0px 0px 5px 5px rgba(15,15,15);
-    color:rgb(231, 203, 79);
-    text-align:center
-}
-
-.column{
-    padding:0 !important
-}
-
-.column a:hover{
-    box-shadow: 0 10px 10px 0 rgba(0,0,0)
-}
-
-.image{
-    padding:0 !important;
-    margin:0 !important;
-}
-
-#images a{
-    box-shadow: 0 10px 10px 0 rgba(0,0,0, 0.1),0 6px 20px 0 rgba(0.0.0, 0.1);
-}
-
-#images img:hover{
-    box-shadow: 0 10px 10px 0 rgba(0,0,0, 0.856),0 6px 20px 0 rgba(0.0.0, 0.911) !important ;
-
-}
 
 .footer img{
     height:120px;
