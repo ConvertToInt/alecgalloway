@@ -1,6 +1,18 @@
-$(window).scroll(function(){
-    $("#maintitle, #navs").css("opacity", 1 - $(window).scrollTop() / 250);
+/*  $(window).scroll(function(){
+    $("#maintitle, #navs").css("opacity", 0 - $(window).scrollTop() * 100);
+  }); */
+
+  $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+  
+    $('.navbar-background-color').css({
+      opacity: function() {
+        var elementHeight = $(this).height();
+        return 1 - (elementHeight - scrollTop) / elementHeight;
+      }
+    });
   });
+
 
   document.addEventListener('DOMContentLoaded', () => {
 
@@ -26,4 +38,16 @@ $(window).scroll(function(){
       });
     }
   
+  });
+
+  document.querySelectorAll('.modal-button').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var target = document.querySelector(el.getAttribute('data-target'));
+      
+      target.classList.add('is-active');
+      
+      target.querySelector('.modal-close').addEventListener('click',   function() {
+          target.classList.remove('is-active');
+       });
+    });
   });
