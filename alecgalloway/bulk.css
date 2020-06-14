@@ -10,13 +10,13 @@ body{
 }
 
 .navbar{
-    background-color:rgba(0, 0, 0, 0.80);
+    background-color:rgba(0, 0, 0, 0.6);
     color:rgb(231, 203, 79);
 }
 
 #main{
     background-image:url(img/52.jpg);
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,8 +83,8 @@ body{
 }
 
 .footer{
-    background-color:rgb(5,5,5);
-    box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.856),0 6px 20px 0 rgba(226, 226, 226, 0.911);
+    background-color:rgba(5,5,5, 0.97);
+    box-shadow: 0 10px 10px 0 rgb(231, 203, 79),;0 6px 20px 0 rgb(231, 203, 79);
     height:200px
 }
 
