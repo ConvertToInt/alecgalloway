@@ -2,7 +2,7 @@
     $("#maintitle, #navs").css("opacity", 0 - $(window).scrollTop() * 100);
   }); */
 
-  $(window).scroll(function() {
+ /*  $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();
   
     $('.navbar-background-color').css({
@@ -50,7 +50,7 @@
           target.classList.remove('is-active');
        });
     });
-  });
+  }); */
 
 
   $(document).ready(function(){
@@ -79,3 +79,4 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
