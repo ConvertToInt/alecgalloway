@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cinzel Decorative">
     <link rel="stylesheet" href="bulk.css">
     <link rel="stylesheet" href="portfolio.css">
@@ -84,9 +85,8 @@
         </ul>
       </div> -->
       
-      <div class="columns is-centered">
+       <div class="columns is-centered">
         <div class="column is-two-thirds">
-      
         <br/>
           <div align="center">
             <button class="btn btn-default filter-button" data-filter="all">All</button>
@@ -99,18 +99,20 @@
         </div>
         <br/>
 
-        <div class="columns is-multiline">
+      
 
-        <div class="column is-one-quarter filter commercial">
+         <div class="columns is-multiline">
+
+        <div class="column is-one-quarter filter commercial is-narrow" >
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/commercial/1.jpg"></a>
         </div>
-        <div class="column is-one-quarter filter commercial">
+        <div class="column is-one-quarter filter commercial is-narrow">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/commercial/2.jpg"></a>
         </div>
-        <div class="column is-one-quarter filter commercial">
+        <div class="column is-one-quarter filter commercial is-narrow">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/commercial/3.jpg"></a>
         </div>
-        <div class="column is-one-quarter filter commercial">
+        <div class="column is-one-quarter filter commercial is-narrow">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/commercial/4.jpg"></a>
         </div>
         <div class="column is-one-quarter filter commercial">
@@ -119,7 +121,6 @@
         <div class="column is-one-quarter filter commercial">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/commercial/6.jpg"></a>
         </div>
-        
 
         <div class="column is-one-quarter filter paintings">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/paintings/1.png"></a>
@@ -181,7 +182,7 @@
         <div class="column is-one-quarter filter harps">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/harps/1.jpg"></a>
         </div>
-        <div class="column is-one-quarter filter harpspanels">
+        <div class="column is-one-quarter filter harps">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/harps/2.jpg"></a>
         </div>
         <div class="column is-one-quarter filter harps">
@@ -215,42 +216,52 @@
         <div class="column is-one-quarter filter panels">
           <a class ="modal-button gallery_product" data-target="#first" aria-haspopup="true"><img src="img/panels/6.jpg"></a>
         </div>
-        <!-- <div class="along">
-        <div class="down">
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/1.jpg"></a>
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/2.jpg"></a>
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/3.jpg"></a>
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/4.jpg"></a>
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/5.jpg"></a>
-          <a class ="modal-button gallery_product filter commercial" data-target="#first" aria-haspopup="true"><img src="img/commercial/6.jpg"></a>
+
+         </div>
+
+
+
+        <!-- <div class="all">
+          <div class="along">
+          <div class="down filter commercial">
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/1.jpg"></a>
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/2.jpg"></a>
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/3.jpg"></a>
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/4.jpg"></a>
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/5.jpg"></a>
+            <a class ="modal-button gallery_product " data-target="#first" aria-haspopup="true"><img src="img/commercial/6.jpg"></a>
+          </div>
+
+          <div class="down">
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/1.png"></a>
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/2.jpg"></a>
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/3.png"></a>
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/4.jpg"></a>
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/5.jpg"></a>
+            <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/6.jpg"></a>
+          </div>
+          <div class="down">
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/1.jpg"></a>
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/2.jpg"></a>
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/3.jpg"></a>
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/4.jpg"></a>
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/5.jpg"></a>
+            <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/6.jpg"></a>
+          </div>
+          <div class="down">
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/1.jpg"></a>
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/2.jpg"></a>
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/3.jpg"></a>
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/4.jpg"></a>
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/5.jpg"></a>
+            <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/6.jpg"></a>
+          </div>
         </div>
-        <div class="down">
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/1.png"></a>
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/2.jpg"></a>
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/3.png"></a>
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/4.jpg"></a>
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/5.jpg"></a>
-          <a class ="modal-button gallery_product filter paintings" data-target="#first" aria-haspopup="true"><img src="img/paintings/6.jpg"></a>
-        </div>
-        <div class="down">
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/1.jpg"></a>
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/2.jpg"></a>
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/3.jpg"></a>
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/4.jpg"></a>
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/5.jpg"></a>
-          <a class ="modal-button gallery_product filter restoration" data-target="#first" aria-haspopup="true"><img src="img/restoration/6.jpg"></a>
-        </div>
-        <div class="down">
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/1.jpg"></a>
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/2.jpg"></a>
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/3.jpg"></a>
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/4.jpg"></a>
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/5.jpg"></a>
-          <a class ="modal-button gallery_product filter totems" data-target="#first" aria-haspopup="true"><img src="img/totems/6.jpg"></a>
-        </div>
-       </div> -->
+        </div>-->
+
+
+
        </div>
-      </div>
       </div>
 
       <!-- <button class="button is-primary modal-button" data-target="#myModal" aria-haspopup="true">Launch example modal</button> -->
@@ -332,7 +343,7 @@
             </div>
         </div>
     </div> -->
-
+    
     
       <script src="bulk.js"></script>
 </body>
