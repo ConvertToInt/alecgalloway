@@ -5,6 +5,14 @@ body{
     margin:0
 }
 
+.page-title{
+    font-size: 50px;
+    padding-top:25px;
+    padding-bottom:50px;
+    letter-spacing: 4px;
+    font-weight:600;
+  }
+
 .centered{
     text-align:center
 }
