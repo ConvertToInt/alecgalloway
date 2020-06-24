@@ -5,7 +5,7 @@ $navbar-burger-color:rgb(231, 203, 79);
 $navbar-item-color:rgb(231, 203, 79);
 
 .navbar-item{
-    font-size:22px;
+    font-size:23px;
     letter-spacing:3px;
     text-shadow: 2px 2px rgb(0, 0, 0);
     font-weight: 800;
@@ -17,7 +17,8 @@ $navbar-item-color:rgb(231, 203, 79);
     -o-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-    font-family:Cinzel Decorative;
+    font-family:Special Elite;
+    padding:0px 30px 0px 30px
 }
 
 .navbar.scrolled {
@@ -26,7 +27,7 @@ $navbar-item-color:rgb(231, 203, 79);
 }
 
 .card{
-    font-family:Cinzel Decorative;
+    font-family:Special Elite;
 }
 
 // Import only what you need from Bulma

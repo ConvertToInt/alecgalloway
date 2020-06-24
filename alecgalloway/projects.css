@@ -1,3 +1,20 @@
+#alec{
+  font-size:37px;
+  letter-spacing:14px;
+  font-weight:1000;
+  margin-top:20px;
+  display:block;
+  margin:0;
+}
+
+#galloway{
+  font-size: 27px;
+  font-weight:300;
+  letter-spacing:0.5px;
+  display:block;
+  margin-top:-10px
+}
+
 #top{
     background-image:url(img/guitar.jpg);
     background-attachment:fixed;

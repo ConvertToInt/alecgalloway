@@ -1,5 +1,5 @@
 .navbar-item {
-  font-size: 22px;
+  font-size: 23px;
   letter-spacing: 3px;
   text-shadow: 2px 2px black;
   font-weight: 800; }
@@ -10,7 +10,8 @@
   -o-transition: all 0.6s ease-out;
   -ms-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
-  font-family: Cinzel Decorative; }
+  font-family: Special Elite;
+  padding: 0px 30px 0px 30px; }
 
 .navbar.scrolled {
   background: #444444;
@@ -19,7 +20,7 @@
   /* NON-IE */ }
 
 .card {
-  font-family: Cinzel Decorative; }
+  font-family: Special Elite; }
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
