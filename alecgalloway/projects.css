@@ -3,25 +3,25 @@
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height:23em;
+    height:25em;
 }
-
 
 .card-title{
   font-size: 23px;
   font-weight:700;
-  letter-spacing:2px
+  letter-spacing:2.5px
 }
 
 .card-description{
 font-size: 17px;
-letter-spacing: 1.5;
+letter-spacing: 2;
+font-weight: 500;
 }
 
 .card-date{
   font-size: 15px;
   font-weight:600;
-  letter-spacing:1.75px
+  letter-spacing:2px
 }
 
 /* collapse to 2 cards, hide description

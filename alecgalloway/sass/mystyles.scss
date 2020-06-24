@@ -1,16 +1,44 @@
 @charset "utf-8";
 
-$navbar-background-color:rgb(153, 114, 114);
+$navbar-background-color:rgba(29, 29, 29,0);
+$navbar-burger-color:rgb(231, 203, 79);
+$navbar-item-color:rgb(231, 203, 79);
 
+.navbar-item{
+    font-size:22px;
+    letter-spacing:3px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-weight: 800;
+}
 
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    font-family:Cinzel Decorative;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(15, 15, 15, 0.9); /* NON-IE */
+}
+
+.card{
+    font-family:Cinzel Decorative;
+}
 
 // Import only what you need from Bulma
-@import "../../node_modules/bulma/sass/utilities/_all.sass";
+
+@import "../../node_modules/bulma/bulma.sass";
+
+/* @import "../../node_modules/bulma/sass/utilities/_all.sass";
 @import "../../node_modules/bulma/sass/base/_all.sass";
 @import "../../node_modules/bulma/sass/grid/columns.sass";
 
 @import "../../node_modules/bulma/sass/components/navbar.sass";
-@import "../../node_modules/bulma/sass/components/card.sass";
+@import "../../node_modules/bulma/sass/components/card.sass"; */
 
 /* @import "../../node_modules/bulma/sass/layout/hero.sass";
 @import "../../node_modules/bulma/sass/layout/section.sass";
