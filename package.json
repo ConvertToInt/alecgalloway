@@ -1,0 +1,28 @@
+{
+  "name": "mybulma",
+  "version": "1.0.0",
+  "description": "my bulma changes",
+  "main": "alecgalloway/sass/mystyles.scss",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts" : {
+    "css-build": "node-sass --omit-source-map-url alecgalloway/sass/mystyles.scss alecgalloway/css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConvertToInt/alecgalloway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConvertToInt/alecgalloway/issues"
+  },
+  "homepage": "https://github.com/ConvertToInt/alecgalloway#readme"
+}
+
+

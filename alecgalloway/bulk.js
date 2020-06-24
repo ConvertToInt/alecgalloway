@@ -1,6 +1,6 @@
-/*  $(window).scroll(function(){
+ /*$(window).scroll(function(){
     $("#maintitle, #navs").css("opacity", 0 - $(window).scrollTop() * 100);
-  }); */
+  });*/
 
   $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();

@@ -1,32 +1,21 @@
 body{
     /* font-family:Cinzel Decorative; */
     /* color:rgb(231, 203, 79); */
+    background-color:rgb(250, 250, 250);
     padding:0;
     margin:0
 }
 
 .page-title{
     font-size: 50px;
-    padding-top:25px;
-    padding-bottom:50px;
+    padding-top:30px;
+    padding-bottom:55px;
     letter-spacing: 4px;
     font-weight:600;
   }
 
 .centered{
     text-align:center
-}
-
-.navbar{
-    background-color:rgba(0, 0, 0, 0.6);
-    color:rgb(231, 203, 79);
-}
-
-#main{
-    background-image:url(img/52.jpg);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #maintitle{
@@ -36,53 +25,6 @@ body{
     text-shadow: 5px 5px rgb(0, 0, 0)
 }
 
-#navtitle{
-    font-size:40px;
-}
-
-.navbar-item{
-    color:rgb(231, 203, 79);
-    letter-spacing: 1px;
-    padding:10px 30px 0 20px
-}
-
-.navs{
-    font-size:15px;
-    font-weight: 600;
-;}
-
-#navbar-item-color{
-    color:rgb(231, 203, 79);
-}
-
-.navbar-burger{
-    color:rgb(231, 203, 79);
-    margin-top:15px;
-}
-
-/* #navbar{
-    margin-top:-620px
-}
-
-#navs li{
-    display:inline-block;
-    margin-right:30px;
-    font-size: 25px
-}
-
-#navs li a{
-    color:rgb(231, 203, 79);
-    /* color:rgb(231, 231, 231);    */
-    /* color:rgb(238, 218, 107); */
-    /*text-shadow: 3px 3px black;
-}
-
-#navs li a:hover{
-    color:rgb(255, 214, 31);
-    text-shadow: 5px 5px black
-} */
-
-
 .footer img{
     height:120px;
     width:120px;
@@ -90,9 +32,13 @@ body{
     margin-right:15px
 }
 
-.footer{
-    background-color:rgba(5,5,5, 0.97);
-    box-shadow: 0 10px 10px 0 rgb(231, 203, 79),0 6px 20px 0 rgb(231, 203, 79);
-    height:200px
+footer{
+    margin-top:60px;
+    font-size:12px;
+    background-color:rgba(238, 238, 238, 0.97);
+    text-align: center;
+    padding:12px 0 17px 0;
+    font-weight:700;
+    letter-spacing:3px
 }
 
