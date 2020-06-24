@@ -1,20 +1,22 @@
   .filter-button
   {
       font-size: 25px;
-      border: 2px solid rgba(0, 0, 0, 0.753);
+      border: 2px solid rgba(27, 27, 27, 0.753);
+      padding-top:5px;
       border-radius: 5px;
       text-align: center;
       margin-bottom: 30px;
       letter-spacing: 2px;
+      font-family:Special Elite;
   }
+
   .filter-button:hover
   {
       font-size: 25px;
       border-radius: 5px;
       text-align: center;
-      color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.116);
-  
+      background-color: rgba(0, 0, 0, 0.15);
+      cursor: pointer
   }
   .btn-default:active .filter-button:active
   {
