@@ -1,5 +1,12 @@
-  .filter-button
-  {
+#top{
+  background-image:url(img/guitar.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:24em;
+}
+  
+  .filter-button{
       font-size: 25px;
       border: 2px solid rgba(27, 27, 27, 0.753);
       padding-top:5px;
@@ -10,45 +17,38 @@
       font-family:Special Elite;
   }
 
-  .filter-button:hover
-  {
+  .filter-button:hover{
       font-size: 25px;
       border-radius: 5px;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.15);
       cursor: pointer
   }
-  .btn-default:active .filter-button:active
-  {
+
+  .btn-default:active .filter-button:active{
       background-color: #42B32F;
       color: white;
   }
   
-  .port-image
-  {
+  .port-image{
       width: 100%;
   }
   
-  .gallery_product
-  {
+  .gallery_product{
       margin-bottom: 30px;
       display:flex;
       flex-wrap:wrap;
+  }
+
+  .gallery_product img{
+    border: 2px solid rgba(27, 27, 27, 0.753);
+    border-radius: 4%;
   }
 
   .portfolio{
     display: flex;
     flex-wrap: wrap;
   }
-
-  #top{
-    background-image:url(img/guitar.jpg);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:23em;
-    opacity:1;
-}    
 
 
 

@@ -3,9 +3,15 @@ document.querySelectorAll('.modal-button').forEach(function(el) {
       var target = document.querySelector(el.getAttribute('data-target'));
       
       target.classList.add('is-active');
+      $('body').css({'overflow':'hidden'});
+      $(document).bind('scroll',function () { 
+           window.scrollTo(0,0); 
+      });
       
       target.querySelector('.modal-close').addEventListener('click',   function() {
           target.classList.remove('is-active');
+          $(document).unbind('scroll'); 
+  $('body').css({'overflow':'visible'});
        });
     });
   });
