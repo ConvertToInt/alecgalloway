@@ -1,9 +1,9 @@
 #top{
-    background-image:url(img/guitar.jpg);
+    background-image:url(img/projects.jpg);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height:25em;
+    height:24em;
 }
 
 .card-title{
