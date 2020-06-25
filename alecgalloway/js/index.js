@@ -8,5 +8,7 @@ $(document).ready(function(){
         $(".fadeslower").hide(0).delay(300).fadeIn(2500);
     }
 
-    
+    $(window).scroll(function(){
+        $(".fade").css("opacity", 1 - $(window).scrollTop() / 200);
+      });
 });

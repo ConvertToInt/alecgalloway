@@ -1,6 +1,4 @@
- /*$(window).scroll(function(){
-    $("#maintitle, #navs").css("opacity", 0 - $(window).scrollTop() * 100);
-  });*/
+$(document).ready(function() {
 
   function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
@@ -18,9 +16,7 @@
     });
   }
 
-  $(document).ready(function() {
-
-    const navbar = document.querySelector(".navbar");
+  const navbar = document.querySelector(".navbar");
     var startY = $('.navbar').height() * 2
 
     // Check for click events on the navbar burger icon
@@ -34,5 +30,5 @@
           $(".navbar").toggleClass("scrolled");
         }
     });
-  });
+});
 

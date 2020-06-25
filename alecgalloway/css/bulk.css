@@ -13,15 +13,13 @@ body{
     margin:0;
   }
   
-  #galloway{
+#galloway{
     font-size: 27px;
     font-weight:300;
     letter-spacing:0.5px;
     display:block;
     margin-top:-10px
   }
-
-
 
 .page-title{
     font-size: 50px;
@@ -36,15 +34,6 @@ body{
     text-align:center
 }
 
-
-
-.footer img{
-    height:120px;
-    width:120px;
-    border-radius:50%;
-    margin-right:15px
-}
-
 footer{
     margin-top:60px;
     font-size:12px;
@@ -52,6 +41,12 @@ footer{
     text-align: center;
     padding:12px 0 17px 0;
     font-weight:700;
-    letter-spacing:3px
+    letter-spacing:3px;
+}
+
+@media screen and (max-width: 550px){
+  .footer{
+    font-size:5px;
+  }
 }
 
