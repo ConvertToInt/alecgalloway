@@ -13,14 +13,7 @@
 
 #contact{
     background-color:rgb(0, 0, 0);
-
-}
-
-#bottomimg{
-    background-image:url(../img/bottomimg.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height:20em
 }
 
 .title{
