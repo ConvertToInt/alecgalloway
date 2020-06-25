@@ -11,4 +11,16 @@ $(document).ready(function(){
     $(window).scroll(function(){
         $(".fade").css("opacity", 1 - $(window).scrollTop() / 200);
       });
+
+      pentitle="SCSS Arrow Animation";
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 });

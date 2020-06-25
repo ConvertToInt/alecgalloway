@@ -1,18 +1,26 @@
-@keyframes breath {
-    from { 
-        transform: scale(1);
-      }
-      to {
-        transform: scale(1.05)
-      }
-  }     
-
-#main{
+ #main{
     background-image:url(../img/52.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     animation: breath 17s ease-out alternate infinite;
+    margin-bottom:75px
+}
+
+#projects{
+    background-color:rgb(235, 235, 235);
+}
+
+#contact{
+    background-color:rgb(0, 0, 0);
+
+}
+
+#bottomimg{
+    background-image:url(../img/bottomimg.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title{
@@ -36,6 +44,75 @@
     letter-spacing:1px;
 }
 
+.header-down-arrow {
+    animation: pulse 2s 3s ease-out infinite;
+    position: absolute;
+      bottom: 4vh;
+      left: 0;
+      right: 0;
+    text-align: center;
+    z-index: 10;
+    color:rgb(231, 203, 79);
+  }
+
+  .header-down-arrow img {
+    animation: fade-slide-up 1s 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  .desktop-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .mobile-info{
+      display:none;
+  }
+
+  #infoimg{
+    position: absolute;
+    width:450px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    z-index: 2;
+    margin-left:175px;
+    margin-top:-50px
+  }
+
+  #infotext{
+    font-family: Special Elite;
+    height: 400px;
+    width:450px;
+    padding:20px 25px 0 25px;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    z-index: 3;
+    border-radius:0;
+    margin-top:50px;
+    margin-left:-175px;
+  }
+
+  #portlink{
+    color:rgb(231, 203, 79); 
+    text-shadow:1px 1px 1px black;
+  }
+
+  #portlink:hover{
+    color:rgb(185, 152, 3)
+  }
+
+
+
+
+
+  footer{
+      margin-top:0px !important
+  }
+
 @media screen and (max-width: 840px){
     #alecgalloway{
         font-size:4.5em;
@@ -43,6 +120,18 @@
     
     #stainedglass{
         font-size:3.5em;
+    }
+
+    .desktop-info{
+        display:none;
+    }
+
+    .mobile-info{
+        display: block;
+    }
+
+    .hero-body {
+        padding: 4rem 2rem !important;
     }
 }
 
@@ -62,19 +151,44 @@
         align-items: flex-start;
         justify-content: left;
     }
+
+    .header-down-arrow{
+        display:none;
+    }
 }
 
+@keyframes breath {
+    from { 
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.05)
+      }
+  }    
 
+@keyframes fade-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
 
-.image{
-    padding:0 !important;
-    margin:0 !important;
-}
-
-#images a{
-    box-shadow: 0 10px 10px 0 rgba(0,0,0, 0.1),0 6px 20px 0 rgba(0.0.0, 0.1);
-}
-
-#images img:hover{
-    box-shadow: 0 10px 10px 0 rgba(0,0,0, 0.856),0 6px 20px 0 rgba(0.0.0, 0.911) !important ;
-}
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+      transform: none;
+    }
+    50% {
+      opacity: .8;
+      transform: scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
