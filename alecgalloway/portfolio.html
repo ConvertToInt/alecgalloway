@@ -36,7 +36,7 @@
   
     <div id="navs" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="index.html">
+        <a class="navbar-item" href="index.html#info">
           About
         </a>
   
@@ -65,7 +65,7 @@
     </div>
   </nav>
 
-  <section class="hero darker" id="top">
+  <section class="hero" id="top">
     <!-- <div class="hero-body">
         <div class="container">
             <h1 class="title">
@@ -83,7 +83,7 @@
 
           <h1 class ="centered page-title">Portfolio</h1>
 
-          <div align="center">
+          <div align="center" style="margin-bottom:60px">
             <button class="btn btn-default filter-button" data-filter="all">All</button>
             <button class="btn btn-default filter-button" data-filter="commercial">Commercial</button>
             <button class="btn btn-default filter-button" data-filter="paintings">Paintings</button>
@@ -94,12 +94,29 @@
         </div>
         <br/>
 
-      
-
          <div class="columns is-multiline">
 
+          <div class="column is-one-quarter is-10-mobile filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings1" aria-haspopup="true"><img src="img/paintings/1.png"></a>
+          </div>
+          <div class="column is-one-quarter is-10-mobile filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings2" aria-haspopup="true"><img src="img/paintings/2.jpg"></a>
+          </div>
+          <div class="column is-one-quarter is-10-mobile filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings3" aria-haspopup="true"><img src="img/paintings/3.png"></a>
+          </div>
+          <div class="column is-one-quarter is-5-mobile filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings4" aria-haspopup="true"><img src="img/paintings/4.jpg"></a>
+          </div>
+          <div class="column is-one-quarter filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings5" aria-haspopup="true"><img src="img/paintings/5.jpg"></a>
+          </div>
+          <div class="column is-one-quarter filter paintings">
+            <a class ="modal-button gallery_product" data-target="#paintings6" aria-haspopup="true"><img src="img/paintings/6.jpg"></a>
+          </div>
+
         <div class="column is-one-quarter filter commercial">
-          <a class ="modal-button gallery_product" data-target="#commercial1" aria-haspopup="true"><img src="img/commercial/1.jpg"></a>
+          <a class ="modal-button gallery_product" data-target="#commercial1" aria-haspopup="true"><img src="img/commercial/1.jpg" loading="lazy"></a>
         </div>
         <div class="column is-one-quarter filter commercial">
           <a class ="modal-button gallery_product" data-target="#commercial2" aria-haspopup="true"><img src="img/commercial/2.jpg"></a>
@@ -115,25 +132,6 @@
         </div>
         <div class="column is-one-quarter filter commercial">
           <a class ="modal-button gallery_product" data-target="#commercial6" aria-haspopup="true"><img src="img/commercial/6.jpg"></a>
-        </div>
-
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings1" aria-haspopup="true"><img src="img/paintings/1.png"></a>
-        </div>
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings2" aria-haspopup="true"><img src="img/paintings/2.jpg"></a>
-        </div>
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings3" aria-haspopup="true"><img src="img/paintings/3.png"></a>
-        </div>
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings4" aria-haspopup="true"><img src="img/paintings/4.jpg"></a>
-        </div>
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings5" aria-haspopup="true"><img src="img/paintings/5.jpg"></a>
-        </div>
-        <div class="column is-one-quarter filter paintings">
-          <a class ="modal-button gallery_product" data-target="#paintings6" aria-haspopup="true"><img src="img/paintings/6.jpg"></a>
         </div>
 
         <div class="column is-one-quarter filter restoration">
@@ -264,7 +262,7 @@
       <div class="modal" id="commercial1">
         <div class="modal-background"></div>
         <div class="modal-content">
-          <p class="image">
+          <p class="image is-3by5">
             <img src="img/commercial/1.jpg" alt="">
           </p>
         </div>

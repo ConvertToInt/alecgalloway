@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: breath 17s ease-out alternate infinite;
-    margin-bottom:75px
+    margin-bottom:75px;
 }
 
 #projects{
@@ -70,6 +70,10 @@
       display:none;
   }
 
+  #info {
+    scroll-margin-top: 150px;
+  }
+
   #infoimg{
     position: absolute;
     width:450px;
@@ -104,10 +108,6 @@
   #portlink:hover{
     color:rgb(185, 152, 3)
   }
-
-
-
-
 
   footer{
       margin-top:0px !important

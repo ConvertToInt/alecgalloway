@@ -1,0 +1,7 @@
+#top{
+    background-image:url(../img/chair/top.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:24em;
+}

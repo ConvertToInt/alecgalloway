@@ -38,8 +38,8 @@ document.querySelectorAll('.modal-button').forEach(function(el) {
     });
     
     if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
+    $(this).removeClass("active");
+    }
+    $(this).addClass("active");
 
 });

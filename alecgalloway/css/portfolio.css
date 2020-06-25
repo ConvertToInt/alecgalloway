@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:24em;
+  margin-bottom:13px
 }
   
   .filter-button{
@@ -48,6 +49,11 @@
   .portfolio{
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .column{
+    margin:auto;
+    padding:0 10px 0 10px;
   }
 
 
