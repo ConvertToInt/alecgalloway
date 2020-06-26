@@ -102,6 +102,42 @@
     color:rgb(185, 152, 3)
   }
 
+  #contact-left{
+    color:rgb(245, 245, 245);
+    font-family: Special Elite;
+    font-size:27px;
+    line-height: 175%;
+    float:left;
+    height:100%;
+    width:50%;
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  }
+
+#contact-right{
+  width:50%;
+  height:100%;
+  float:right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#contact-imgs{
+  height:70%;
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact-img{
+  display:inline-block;
+  margin:0 20px 0 20px;
+}
+
   footer{
       margin-top:0px !important
   }
