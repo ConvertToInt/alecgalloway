@@ -4,11 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: breath 17s ease-out alternate infinite;
-    margin-bottom:75px;
-}
-
-#projects{
-    background-color:rgb(235, 235, 235);
 }
 
 #contact{
@@ -53,6 +48,11 @@
     opacity: 0;
   }
 
+
+
+
+
+
   .desktop-info{
         display: flex;
         justify-content: center;
@@ -64,7 +64,8 @@
   }
 
   #info {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 110px;
+    padding:40px 0 40px 0;
   }
 
   #infoimg{
@@ -101,6 +102,66 @@
   #portlink:hover{
     color:rgb(185, 152, 3)
   }
+
+
+
+
+  
+.desktop-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-projects{
+    display:none;
+}
+
+#projects{
+  background-color:rgb(235, 235, 235);
+  padding:40px 0 40px 0;
+}
+
+#projectsimg{
+  position: absolute;
+  width:450px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  z-index: 2;
+  margin-left:-200px;
+  margin-top:-40px
+}
+
+#projectstext{
+  font-family: Special Elite;
+  height: 400px;
+  width:450px;
+  padding:20px 25px 0 25px;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  z-index: 3;
+  border-radius:0;
+  margin-top:30px;
+  margin-left:200px;
+}
+
+#projlink{
+  color:rgb(231, 203, 79); 
+  text-shadow:1px 1px 1px black;
+}
+
+#projlink:hover{
+  color:rgb(185, 152, 3)
+}
+
+
+
+
+
+
 
   #contact-left{
     color:rgb(245, 245, 245);
@@ -159,7 +220,15 @@
         display: block;
     }
 
-    #welcome-hero {
+    .desktop-projects{
+      display:none;
+  }
+
+  .mobile-projects{
+      display: block;
+  }
+
+    #hero-padding {
         padding: 4rem 2rem !important;
     }
 
